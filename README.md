@@ -1,6 +1,7 @@
 # xai_privacy_intent
 This app classifies privacy policy sentences based on their intent using transformers and is deployed using Streamlit. The model is designed for explainable AI, providing interpretable results to help users understand the intentions behind each sentence in a privacy policy. The app is easy to use and can be accessed on the web.
 
+**App link :** https://huggingface.co/spaces/remzicam/XAI_privacy_intent
 
 ## Business Problem
 
@@ -9,3 +10,15 @@ This app classifies privacy policy sentences based on their intent using transfo
 2. Many machine learning models can be difficult for the average user to understand, leading to mistrust and skepticism. The app's explainable AI capabilities make it easy for users to understand how the model works, increasing trust in its results.
 
 3. In regulated industries, it is often necessary to provide clear explanations for the decisions made by machine learning models. The app's explainable AI capabilities allow businesses to easily comply with these regulations, improving compliance and reducing the risk of legal challenges.
+
+## Tools Used
+
+• transformers: to classify intents of privacy policy sentence
+
+• transformers-interpret: to interpret and explain the model decision/prediction
+
+• streamlit: web app and deployment
+
+• plotly: to vizualize model inference
+
+• html-css: to make streamlit web app more beautiful
